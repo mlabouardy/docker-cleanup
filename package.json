@@ -1,0 +1,28 @@
+{
+  "name": "docker-cleanup",
+  "version": "1.0.0",
+  "description": "Clean up unused docker images and stopped containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlabouardy/docker-cleanup.git"
+  },
+  "author": "mlabouardy <mohamed@labouardy.com> (http://labouardy.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlabouardy/docker-cleanup/issues"
+  },
+  "homepage": "https://github.com/mlabouardy/docker-cleanup#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "body-parser": "^1.15.0",
+    "byte-converter": "^0.1.4",
+    "cron": "^1.1.0",
+    "express": "^4.13.4",
+    "path": "^0.12.7",
+    "request": "^2.69.0"
+  }
+}
